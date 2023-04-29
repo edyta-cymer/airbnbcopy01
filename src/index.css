@@ -17,3 +17,9 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Montserrat-VariableFont_wght";
+  src: local("Montserrat-VariableFont_wght"),
+    url(../src/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
