@@ -213,15 +213,19 @@ text-field-p {
   #nav {
     height: 90px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-direction: column;
 
     margin-top: 0px;
     margin-left: 10px;
+    margin-bottom: 60px;
+  }
+  #nav-searchbar-box {
+    margin: 0 auto;
   }
   #logo {
     font-size: 12px;
+    margin-bottom: 39px;
+    margin-top: 5px;
   }
 
   .text-field {
@@ -231,7 +235,7 @@ text-field-p {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 37px;
   }
   .gallery-box {
     display: flex;
