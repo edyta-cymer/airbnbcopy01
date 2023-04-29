@@ -138,6 +138,9 @@ text-field-p {
 
   scale: fill;
   opacity: 0.9;
+  -webkit-box-shadow: -3px 0px 18px -11px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -3px 0px 18px -11px rgba(66, 68, 90, 1);
+  box-shadow: -3px 0px 18px -11px rgba(66, 68, 90, 1);
 }
 
 #gallery-card-photo:hover {
