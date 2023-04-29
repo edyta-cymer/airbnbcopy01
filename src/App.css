@@ -1,38 +1,245 @@
-.App {
+@import url("https://use.typekit.net/rix7blu.css");
+
+/* NAV */
+#nav {
+  height: 134px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 1200px;
+  margin-top: 49px;
+  margin-left: 129px;
+}
+#logo {
+  font-size: 14px;
+}
+
+/* SEARCH BAR  */
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+
+  border-radius: 6px;
+  width: 297px;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+  font-family: "muli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 14px;
+}
+.input-where {
+  width: 106px;
+  border: none;
+  height: 18px;
+  outline: none;
+  line-height: 100%;
+}
+.input-guests {
+  width: 74px;
+  border: none;
+  height: 18px;
+  outline: none;
   text-align: center;
+  line-height: 100%;
+}
+.input-where::placeholder {
+  color: #333333;
+}
+.input-guests::placeholder {
+  color: #bdbdbd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon-box {
+  width: 53px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.search-icon {
+  height: 10px;
+  cursor: pointer;
+}
+.search-icon:active {
+  transform: translateY(-2px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-box-one {
+  height: 55px;
+
+  width: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #f2f2f2;
+}
+.input-box-two {
+  height: 55px;
+
+  width: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #f2f2f2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* GALLERY */
+
+.gallery-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.text-field {
+  width: 1260px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+}
+text-field-p {
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  line-height: 100%;
+  color: #4f4f4f;
+}
+
+.gallery {
+  background-color: #333333;
+  height: 719px;
+  width: 1000px;
+}
+
+#gallery-card-photo {
+  height: 260px;
+  width: auto;
+  max-width: 395px;
+  border-radius: 20px;
+  margin-bottom: 21px;
+
+  scale: fill;
+  opacity: 0.9;
+}
+
+#gallery-card-photo:hover {
+  opacity: 1;
+}
+
+.gallery-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 30px;
+}
+.title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #333333;
+}
+.superhost {
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 12px;
+  line-height: 15px;
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
+  height: 28px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type {
+  font-family: "Montserrat";
+
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+.rating-box {
+  display: flex;
+  align-items: center;
+}
+
+.first-text-field-gallerycard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+/* MEDIA  */
+
+@media (max-width: 844px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 80px;
   }
-  to {
-    transform: rotate(360deg);
+  .gallery-container {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #nav {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  #logo {
+    font-size: 12px;
+  }
+
+  .text-field {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .gallery-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #gallery-card-photo {
+    height: auto;
+    max-width: 100%;
   }
 }
