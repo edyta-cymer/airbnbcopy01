@@ -10,7 +10,7 @@ const Gallery = () => {
   useEffect(() => {
     setData(stays);
   }, []);
-
+  console.log(data);
   return (
     <div className="gallery-container">
       <div className="text-field">
