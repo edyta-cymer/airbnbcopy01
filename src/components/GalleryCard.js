@@ -24,12 +24,12 @@ const GalleryCard = ({ photo, type, title, rating, superHost }) => {
       <img src={photo} alt={title} id="gallery-card-photo" />
       <div className="card-info">
         <div className="first-text-field-gallerycard">
-          {superHost ? <div className="superhost">Superhost</div> : null}
+          {/* {superHost ? <div className="superhost">Superhost</div> : null} */}
           <div className="type">{type}</div>
           <div className="rating-box">
             <ThemeProvider theme={theme}>
               <StarIcon color="primary" fontSize="small" />
-              {rating}
+              <p>{rating}</p>
             </ThemeProvider>
           </div>
         </div>

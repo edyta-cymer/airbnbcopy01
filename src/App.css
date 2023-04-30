@@ -114,6 +114,13 @@ h3 {
   font-size: 24px;
   color: #333333;
 }
+p {
+  font-family: "Montserrat-VariableFont_wght";
+  font-size: 14px;
+  line-height: 17px;
+  font-style: medium;
+  color: #4f4f4f;
+}
 text-field-p {
   font-family: Montserrat;
   font-style: Medium;
@@ -145,6 +152,8 @@ text-field-p {
 
 #gallery-card-photo:hover {
   opacity: 1;
+
+  box-shadow: -3px 0px 18px -11px rgba(86, 68, 90, 1);
 }
 
 .gallery-box {
@@ -179,7 +188,7 @@ text-field-p {
 }
 .type {
   font-family: "Montserrat";
-
+  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: #828282;
@@ -192,7 +201,7 @@ text-field-p {
 .first-text-field-gallerycard {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   margin-bottom: 17px;
 }
