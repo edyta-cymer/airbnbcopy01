@@ -23,3 +23,7 @@ code {
   src: local("Montserrat-VariableFont_wght"),
     url(../src/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Muli";
+  src: local("Muli"), url(../src/fonts/Muli.ttf) format("truetype");
+}

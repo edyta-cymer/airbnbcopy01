@@ -216,6 +216,9 @@ text-field-p {
   h3 {
     font-family: "Montserrat-VariableFont_wght";
   }
+  .text-field {
+    font-family: "Montserrat-VariableFont_wght";
+  }
   #nav {
     height: 90px;
     display: flex;
@@ -224,6 +227,11 @@ text-field-p {
     margin-top: 0px;
     margin-left: 10px;
     margin-bottom: 60px;
+  }
+  .type,
+  .rating-box,
+  .title {
+    font-family: Montserrat-VariableFont_wght;
   }
   #nav-searchbar-box {
     margin: 0 auto;
