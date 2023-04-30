@@ -2,6 +2,7 @@ import "./App.css";
 import SearchBar from "./components/SearchBar";
 import logo from "../src/photos/logo.png";
 import Gallery from "./components/Gallery";
+import Pagination from "./components/Pagination";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </div>
       </nav>
       <Gallery />
+      <Pagination />
     </div>
   );
 }
